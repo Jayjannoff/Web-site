@@ -1,0 +1,564 @@
+img{
+padding: 0;
+}
+
+
+h1{
+text-align:center;
+margin: 0 10%;
+font-family:sans-serif;
+}
+
+
+video{
+position:center;
+}
+
+input{
+width:50%;
+}
+
+ifframe{
+width:300 !important;
+height:300 !important;
+}
+
+
+.umumiy .country{
+text-decoration-thickness:10px;
+}
+
+
+#footer{
+    background-color:#14263e;
+    color:#fff;
+    text-align:center;
+    font-family:sans-serif;
+    margin:0;
+}
+
+#footer .lenta img{
+float:right;
+padding-top:1% !important;
+width:6%;
+height:6%;
+margin:0 1%;
+}
+
+.lenta a:hover{
+filter:brightness(180%);
+}
+
+
+.clr{
+clear:both;
+}
+
+.pnumber{
+float:left;
+padding-top:2.5% !important;
+margin:0 6%;
+}
+
+.accordion-button:hover{
+background-color:#03c974 !important;
+color:black;
+}
+
+
+
+
+@media screen and (min-width: 601px) {
+  .umumiy .blackbackground .osha p{
+    font-size: 43px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .umumiy .blackbackground .osha p{
+    font-size: 22px !important;
+  }
+}
+
+/* font size for home blackbackground class */
+
+
+@media screen and (min-width: 601px) {
+  .umumiy .blackbackground .osha h1{
+    font-size: 52px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .umumiy .blackbackground .osha h1{
+    font-size: 30px !important;
+  }
+}
+
+
+
+
+
+/*from here card body star
+ts*/
+
+
+
+/*youtube video osti qismi */
+
+
+
+@media screen and (min-width: 601px) {
+  .umumiy .blackbackground .videotag .card-body h5{
+    font-size: 45px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .umumiy .blackbackground .videotag .card-body h5{
+    font-size: 25px !important;
+  }
+}
+
+
+/* a link button */
+
+
+
+
+@media screen and (min-width: 601px) {
+  .umumiy .blackbackground .videotag .card-body a{
+    font-size: 45px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .umumiy .blackbackground .videotag .card-body a{
+    font-size: 25px !important;
+  }
+}
+
+
+/* p stildagi yozuvlar */
+
+
+@media screen and (min-width: 601px) {
+  .umumiy .blackbackground .videotag .card-body p{
+    font-size: 30px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .umumiy .blackbackground .videotag .card-body p{
+    font-size: 15px !important;
+  }
+}
+
+
+@media screen and (min-width: 601px) {
+  #lastone {
+  padding-left: 28% !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #lastone {
+    background-position: 80% center;
+
+    padding-left:15% !important;
+  }
+}
+
+
+
+/* reddot style and size*/
+
+
+
+@media screen and (min-width: 601px) {
+  .umumiy .country h1{
+    font-size: 52px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .umumiy .country h1{
+    font-size: 27px !important;
+  }
+}
+
+/* and now under country texts time we now give table reader about our company so they can commmunicate with us
+but you should know that it is very important not to make mistake so our country will die*/
+
+
+@media screen and (min-width: 601px) {
+  .umumiy .country h1{
+    font-size: 52px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .umumiy .country h1{
+    font-size: 27px !important;
+  }
+}
+
+
+@media screen and (min-width: 601px) {
+  .umumiy .reddot h1{
+    font-size: 40px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .umumiy .reddot h1{
+    font-size: 23px !important;
+  }
+}
+
+
+/* now red dot style starts and you shoouldnot be panic you know so it is very important*/
+
+@media screen and (min-width: 601px) {
+  .umumiy .reddot .containerul ul li{
+    font-size: 30px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .umumiy .reddot .containerul ul li{
+    font-size: 15px !important;
+  }
+  }
+
+
+
+  /*card body from here thie card style starts and you know it is very importan one in hte future this make my
+  world very beautiful*/
+
+
+@media screen and (min-width: 601px) {
+  .umumiy .card p{
+    font-size: 30px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .umumiy .card p{
+    font-size: 15px !important;
+  }
+}
+
+
+@media screen and (min-width: 601px) {
+  .umumiy .card h2{
+    font-size: 40px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .umumiy .card h2{
+    font-size: 20px !important;
+  }
+}
+
+
+
+/* pastga tushurish uchun osha narsa shuk bu ancha textni kattaroq qiladi*/
+
+
+@media screen and (min-width: 601px) {
+  .pastgatush .accordion-body{
+    font-size: 28px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .pastgatush .accordion-body{
+    font-size: 15px !important;
+  }
+}
+
+
+/* buttons of dropdown */
+
+@media screen and (min-width: 601px) {
+  .pastgatush button{
+    font-size:30px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .pastgatush button{
+    font-size: 20px !important;
+  }
+}
+/* now it is time to footer */
+
+@media screen and (min-width: 601px) {
+  #footer .pnumber{
+    font-size:25px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #footer .pnumber{
+    font-size: 12px !important;
+  }
+}
+
+
+@media screen and (min-width: 601px) {
+  #footer .pnumber{
+    font-size:25px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #footer .pnumber{
+    font-size: 12px !important;
+  }
+}
+
+
+
+@media screen and (min-width: 601px) {
+  #footer p{
+    font-size:25px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #footer p{
+    font-size: 12px !important;
+  }
+}
+
+/* from here html newwein starts */
+
+
+
+
+@media screen and (min-width: 601px) {
+   .newwin .newwin1 p{
+    font-size:24px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .newwin .newwin1 p{
+    font-size: 16px !important;
+  }
+}
+/*fronm here h2 style starts be carefull with that*/
+
+@media screen and (min-width: 601px) {
+   .newwin .newwin1 h2{
+    font-size:30px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .newwin .newwin1 h2{
+    font-size: 16px !important;
+  }
+}
+
+
+
+
+@media screen and (min-width: 601px) {
+   .newwin .mb-3 label{
+    font-size:30px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .newwin .mb-3 label{
+    font-size: 16px !important;
+  }
+}
+
+
+@media screen and (min-width: 601px) {
+   .newwin .mb-3 input{
+    font-size:30px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .newwin .mb-3 input{
+    font-size: 16px !important;
+  }
+}
+
+
+@media screen and (min-width: 601px) {
+   .newwin .form-text{
+    font-size:30px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .newwin .form-text{
+    font-size: 16px !important;
+  }
+}
+
+
+
+@media screen and (min-width: 601px) {
+   .newwin .forma .btn{
+    font-size:28px !important;
+    background-color:#1b562a !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .newwin .forma .btn{
+    font-size: 18px !important;
+    background-color:#1b562a !important;
+  }
+}
+
+
+/* from here navbar starts */
+
+@media screen and (min-width: 601px) {
+   .navbar ul li a{
+    font-size:25px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .navbar ul li a{
+    font-size: 14px !important;
+  }
+}
+
+
+
+/*from here hodimlar page boshlanadi*/
+
+
+@media screen and (min-width: 601px) {
+   .results .card-text{
+    font-size:26px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .results .card-text{
+    font-size: 17px !important;
+  }
+}
+
+
+@media screen and (min-width: 601px) {
+   .results .card-title{
+    font-size:30px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .results .card-title{
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (min-width: 601px) {
+   .results .recommendation{
+    font-size:33px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .results .recommendation{
+    font-size: 20px !important;
+  }
+}
+
+
+
+/* from here about page starts*/
+
+@media screen and (min-width: 601px) {
+   .haqida .card-body p{
+    font-size:28px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .haqida .card-body p{
+    font-size: 17px !important;
+  }
+}
+
+@media screen and (min-width: 601px) {
+   .haqida .card-body h5{
+    font-size:34px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .haqida .card-body h5{
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 601px) {
+   .haqida .card-header{
+    font-size:35px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .haqida .card-header{
+    font-size: 21px !important;
+  }
+}
+
+@media screen and (min-width: 601px) {
+   .stylea .list-group .list-group-item{
+    font-size:35px !important;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .stylea .list-group .list-group-item{
+    font-size: 18px !important;
+  }
+}
+
+

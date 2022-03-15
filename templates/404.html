@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+
+    <div style="padding:5%;background-color:gray;color:black,font-weight:bold;font-family:sans-serif;margin:10% 15%; ">
+        <h1 style="text-align:left;font-size:2.4vw;">Sizning malumotlaringiz saqlandi!</h1>
+        <p style="text-align:left;font-size:1.9vw;">Siz bilan tez orada bog'lanamiz agarda sizning ozingizni agarda siz shoshilinch malumot olishni hohlasangiz biz bilan pastdagi raqamlar orqali boglanishingiz mumkin</p>
+        <p style="text-align:left;font-size:1.9vw;">Agarda asosiy oynaga qaytmoqchi bo'lsangiz <strong ><a style="color:black;font-weight:bold;" href="{% url 'home' %}">Asosiy oyna</a></strong> ni bosing!</p>
+    </div>
+{% endblock content %}

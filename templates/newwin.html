@@ -1,0 +1,42 @@
+{% load static %}
+<div  class='newwin' style="border:2px solid #362e31;padding-top:0%; background-color:#99968d;padding-bottom:2%;">
+
+
+  <form action="https://sheetdb.io/api/v1/o620hlquuha2u" class="forma" method="post" id="sheetdb-form" style="margin:0 10%;padding-top:3%;">
+
+    <div class="newwin1">
+      <h2>Agarda siz ham ona bolishni hohlasingiz?</h2>
+      <p style="margin:1% 4%;">Biz sizga qolimizda kelganucha yordam beramiz albatta siz nasib qilsa ona bolasiz.</p>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label" style="padding-left:10%; font-size:2.5vw"><strong>Ismingiz:</strong></label>
+      <input style="width:70%;border-radius:15px;" placeholder="Ismingizni kiriting" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="data[Ismi]">
+      <div id="emailHelp" class="form-text" style="color:black;font-size:2.2vw; margin:0 5%;">Hotirjam bo'ling biz bilan malumotlaringiz max!</div>
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label" style="padding-left:10%;font-size:2.5vw"><strong>Tel. raqam:</strong></label>
+      <input style="width:70%;border-radius:15px;" type="number" class="form-control" id="exampleInputPassword1" placeholder="Tel. raqamingizni kiriting" name="data[Tel. raqam]">
+    </div>
+    <button style="width:30%;color:white;" type="submit"   class="btn">Yuborish</button>
+  </form>
+
+  <script>
+    var form=document.getElementById('sheetdb-form');
+  form.addEventListener('submit',e=>{
+    e.preventDefault();
+    fetch(form.action,{
+      method:'POST',
+      body: new FormData(document.getElementById('sheetdb-form')),
+    }).then(
+      response => response.json()
+    ).then((html)=>{
+    window.open('open/');
+    });
+  });
+
+
+
+  </script>
+
+</div>
